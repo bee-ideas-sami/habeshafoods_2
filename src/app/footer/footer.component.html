@@ -1,0 +1,44 @@
+<footer class="footer bg-dark footer_position_bottom " style="padding:50px">
+  <div class="row">
+    <div class="col">
+      <div class="row">
+        <ul class="list-group list-inline" style="padding-left:100px;">
+          <li class ="list-item" style="padding-bottom: 10px"><h5>Markten</h5></li>
+          <li *ngFor = "let plaats of marktPlaatsen">
+              <a  [routerLink]="'/markten'" href="#!">{{ plaats }}</a>
+            </li>
+        </ul>
+      </div>
+    </div>
+    <div class="col">
+        <div class="row">
+          <ul class="list-group list-inline" style="padding-left:100px;">
+            <li class ="list-item" style="padding-bottom: 10px"><h5>Bezorgen</h5></li>
+            <li *ngFor= "let bezorgPlaats of bezorgPlaatsen">
+                <a [routerLink]="'/bestellenBezorgen'"href="#!">{{ bezorgPlaats}}</a>
+              </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col">
+          <div class="row">
+            <ul class="list-group list-inline" style="padding-left:100px;">
+              <li class ="list-item" style="padding-bottom: 10px"><h5>Social</h5></li>
+              <li *ngFor="let site of social ">
+                  <a href={{site.socialUrl}}>{{ site.socialSite }}</a>
+                </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col">
+            <div class="row">
+              <ul class="list-group list-inline" style="padding-left:100px;">
+                <li class ="list-item" style="padding-bottom: 10px"><h5>Contact</h5></li>
+                <li *ngFor= "let contactDetail of contact">
+                    <a href="#!">Tel: {{ contactDetail }}</a>
+                  </li>
+              </ul>
+            </div>
+          </div>
+  </div>
+</footer>
