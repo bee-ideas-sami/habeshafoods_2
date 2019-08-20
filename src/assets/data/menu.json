@@ -1,51 +1,58 @@
 [{
     "id" : 1,
-    "name" : "Broodje ei",
-    "imageUrl": "./assets/img/broodje_ei.jpg",
-    "price": "4,50",
-    "description" : "broodje royaal gevuld met lamsvlees en groenten zacht of pittig gekruid"
+    "name" : "Broodje lamsvlees",
+    "imageUrl": "./assets/img/broodje_pittig_lams.jpg",
+    "price": "4,25",
+    "description" : "broodje gevuld met lamsvlees en groenten zacht of pittig gekruid"
   },
   {
     "id" : 2,
-    "name" : "Broodje pittig lamsvlees",
-    "imageUrl": "./assets/img/broodje_pittig_lams.jpg",
-    "price": "4,50",
-    "description" : "broodje royaal gevuld met lamsvlees en groenten zacht of pittig gekruid"
+    "name" : "Broodje heet kip",
+    "imageUrl": "./assets/img/broodje_kip.jpg",
+    "price": "3,95",
+    "description" : "broodje hete kip met ijsbergsla en tomaat"
   },
   {
     "id" : 3,
-    "name" : "Ful",
-    "imageUrl": "./assets/img/ful.jpg",
-    "price": "4,50",
-    "description" : "broodje royaal gevuld met lamsvlees en groenten zacht of pittig gekruid"
+    "name" : "Broodje pittig gehakt",
+    "imageUrl": "./assets/img/broodje_pittig_gehakt.jpg",
+    "price": "3,95",
+    "description" : "broodje pittig ghehakt met ijsbergsla en tomaat"
 
   },
   {
     "id" : 4,
-    "name" : "Injera bewet",
-    "imageUrl": "./assets/img/injera_bewet.jpg",
-    "price": "4,50",
-    "description" : "broodje royaal gevuld met lamsvlees en groenten zacht of pittig gekruid"
+    "name" : "Broodje ei",
+    "imageUrl": "./assets/img/broodje_ei.jpg",
+    "price": "3,25",
+    "description" : "gebakken ei met ijsbergsla en tomaat"
   },
   {
     "id" : 5,
     "name" : "Injera firfir",
     "imageUrl": "./assets/img/injera_firfir.jpg",
-    "price": "4,50",
-    "description" : "broodje royaal gevuld met lamsvlees en groenten zacht of pittig gekruid"
+    "price": "6,50",
+    "description" : "mix van injera met rundvleessaus "
   },
   {
     "id" : 6,
-    "name" : "Injera vegitarian",
+    "name" : "Injera vegetarisch ",
     "imageUrl": "./assets/img/injera_vegitarian.jpg",
-    "price": "4,50",
-    "description" : "broodje royaal gevuld met lamsvlees en groenten zacht of pittig gekruid"
+    "price": "3,50",
+    "description" : "Injera met verschillende groentesauzen"
   },
   {
     "id" : 7,
-    "name" : "Broodje iets",
-    "imageUrl": "./assets/img/broodje_app.jpg",
-    "price": "4,50",
-    "description" : "broodje royaal gevuld met lamsvlees en groenten zacht of pittig gekruid"
+    "name" : "Injera bewet",
+    "imageUrl": "./assets/img/injera_bewet.jpg",
+    "price": "7,00",
+    "description" : "Injera met rund of lamsvleessaus en groenten"
+  },
+  {
+    "id" : 8,
+    "name" : "Rijst met rund",
+    "imageUrl": "./assets/img/rijst_rund_kip_lams.jpg",
+    "price": "7,00",
+    "description" : "rijst met rund, kip of lamsvleessaus en groenten "
   }
   ]

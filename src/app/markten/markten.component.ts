@@ -12,10 +12,6 @@ export class MarktenComponent implements OnInit {
       "description": "woensdag, vrijdag en zaterdag op vredenburg"
     },
     {
-      "plaats": "Amsterdam",
-      "description": "dinsdag op Dapperstraat"
-    },
-    {
       "plaats": "Bussum",
       "description": "donderdag op de markt"
     }

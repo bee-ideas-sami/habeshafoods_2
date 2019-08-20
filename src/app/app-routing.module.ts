@@ -10,14 +10,14 @@ import { ContactComponent } from './contact/contact.component';
 
 
 const routes: Routes = [
-  { path: '', redirectTo: '/menu', pathMatch: 'full' },
   { path: 'menu', component: MenuComponent },
   { path: 'catering', component: CateringComponent },
   { path: 'markten', component: MarktenComponent},
   { path: 'bestellenBezorgen', component: BestellenBerzorgenComponent},
   { path: 'overOns', component: OverOnsComponent},
   { path: 'media', component: MediaComponent},
-  { path: 'contact', component: ContactComponent}
+  { path: 'contact', component: ContactComponent},
+  { path: '', redirectTo: '/menu', pathMatch: 'full' }
 ];
 
 
